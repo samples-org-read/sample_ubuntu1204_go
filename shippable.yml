@@ -1,4 +1,4 @@
-language: gnno
+language: go
 
 go:
   - 1.2
