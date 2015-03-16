@@ -8,7 +8,9 @@ env:
   - CI_REPORT=shippable/testresults/junit.xml
 
 
-build_image: shippableimages/ubuntu1204_go: 0.0.2
+#build_image: shippableimages/ubuntu1204_go: 0.0.2
+
+build_image: shippableimages/ubuntu1204_go
 
 install:
   - go get -d -v ./... && go build -v ./...
