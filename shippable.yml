@@ -33,7 +33,7 @@ before_script:
   - go version
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-a
+
 archive: true
 
 script:
